@@ -1,0 +1,12 @@
+.ranking{
+    padding-bottom: 10px;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box li{
+    display: flex;
+    padding: 10px;
+}

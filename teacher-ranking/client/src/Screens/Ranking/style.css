@@ -1,0 +1,50 @@
+#title {
+  width: 100%;
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+  
+#phds {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+#phds td, #phds th {
+  padding: 10px;
+  color: black;
+}
+
+#phds tr:nth-child(even){background-color: white;}
+  
+#phds tr:hover {background-color: #a8d0e6;}
+  
+#phds th {
+  text-align: center;
+  background-color: #17252a;
+  color: white;
+}
+
+.background{
+  padding-top: 10px;
+  background-color: #def2f1;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 100%;
+}
+
+#body{
+  width: 100%;
+}
+
+.rank{
+  border-top-left-radius: 0.5rem;
+}
+
+.country{
+  border-top-right-radius: 0.5rem;
+}
+
