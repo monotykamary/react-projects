@@ -12,8 +12,21 @@ app.use(function(req, res, next) {
 
 app.get("/api/professors", (req, res) =>{
     //console.log(data);
-    
     return res.status(200).json(data.professors)
+})
+
+app.get("/api/users", (req, res) =>{
+    //console.log(data);
+    return res.status(200).json(data.users)
+})
+
+app.get("/api/users/:id", (req, res) =>{
+    const userId = req.params.id;
+    const user = data.professors.find(x=>x._id === userId);
+    if(user)
+        res.send(user)
+    else
+        res.status(404).send({msg:"User Not Found"})
 })
 
 app.get("/api/comments", (req, res) =>{

@@ -1,0 +1,94 @@
+.Navi{
+  color: white;
+  background-color: #17252a;
+  width: 100%;
+  padding: 50px;
+}
+.nav1{
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  background: #17252a;
+  color: white
+}
+  
+.nav1-links{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  color: white;
+}
+
+.link1{
+  color: white;
+  text-decoration: underline;
+}
+
+.link1:hover{
+  text-decoration: underline;
+  color: #c1c8e4;
+}
+
+.link2{
+  color: white;
+  text-decoration: none;
+}
+
+.link2:hover{
+  color: white;
+  
+}
+
+.link3{ 
+  color: white;
+  text-decoration: none;
+}
+
+.link3:hover{
+  text-decoration: underline;
+  color: #c1c8e4;
+}
+
+.link4{
+  color: white;
+  text-decoration: none;
+}
+
+.link4:hover{
+  text-decoration: underline;
+  color: #c1c8e4;
+}
+
+.link5{
+  color: white;
+}
+
+.link5:hover{
+  text-decoration: underline;
+  color: #c1c8e4;
+}
+
+.navA {
+  padding:0 1.5rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  transition: 0.1s, border-bottom .2s, border-left .4s, border-top .6s, border-right .9s;
+}
+.navA:hover{
+  color: #c1c8e4;
+  transition: 0.9s, border-bottom .1s .3s, border-left .7s 1s, border-top .6s .7s, border-right .3s .5s;
+  border-bottom: 2px solid #c1c8e4;
+  border-left: 2px solid #c1c8e4;
+  border-top: 2px solid #c1c8e4;
+  border-right: 2px solid #c1c8e4;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
