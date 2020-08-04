@@ -42,7 +42,7 @@ function Package () {
     if (isEmpty(category) || categorySet.has("tất cả")) return true;
     if (intersection(tour.category, category).length >= 1) return true;
     return false;
-  }, TourList)
+  })
 
   useEffect(() => {
     fetchData()
