@@ -1,12 +1,13 @@
 import React, { Component, useState, useEffect } from "react";
 import { useSelector, useDispatch } from 'react-redux';
-import { Container, Card, CardImg, CardText, 
+import { Container, Card, CardImg, CardText,
   CardBody,CardTitle, CardSubtitle, Button,  Row, CardColumns, Badge } from "reactstrap";
 import SecondCarousel from "./Carousel2"
 import Tour from "./Tour";
 import "../App.css";
 import { listTours } from "../actions/tourActions";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import { intersection, isEmpty } from 'lodash';
 
 function Package () {
   const [TourList, setTourList] = useState([]);
@@ -19,10 +20,6 @@ function Package () {
           //console.log(ret)
       }
   }
-  const OnClickHandler= () =>{
-    
-  }
-
   const [category, setCategory] = useState([]);
   const itemCategories = [
     "tất cả",
@@ -36,11 +33,22 @@ function Package () {
     "ngoài nước"
   ];
 
+  const onClickHandler = (badge) => () =>{
+    setCategory([badge]);
+  }
+
+  const categorySet = new Set(category);
+  const filterCategory = (list) => list.filter((tour) => {
+    if (isEmpty(category) || categorySet.has("tất cả")) return true;
+    if (intersection(tour.category, category).length >= 1) return true;
+    return false;
+  }, TourList)
+
   useEffect(() => {
     fetchData()
   },[]);
-  
-  
+
+
   return (
     <div className="subComponent-lg" id="packageBody">
       <SecondCarousel/>
@@ -54,14 +62,15 @@ function Package () {
               <Badge
                 key={index}
                 href=""
-                color={badge ===  category ? "dark" : "light"}>
-                
+                onClick={onClickHandler(badge)}
+                color={badge ===  category ? "dark" : "light"}
+               >
                 {badge}
               </Badge>
             ))}
             <Row className="text-left">
-              <CardColumns> 
-              {TourList.map(tour =>(
+              <CardColumns>
+              {filterCategory(TourList).map(tour =>(
                 <Card>
                 <CardImg top width="100%" src={tour.image} alt={tour.alt} />
                 <CardBody>
@@ -73,7 +82,7 @@ function Package () {
                   <CardTitle>{tour.title}</CardTitle>
                   <CardSubtitle>{tour.subtile}</CardSubtitle>
                 </CardBody>
-              </Card>))}                            
+              </Card>))}
               </CardColumns>
             </Row>
           </section>
