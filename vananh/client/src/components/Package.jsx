@@ -63,7 +63,7 @@ function Package () {
                 key={index}
                 href=""
                 onClick={onClickHandler(badge)}
-                color={badge ===  category ? "dark" : "light"}
+                color={categorySet.has(badge) ? "dark" : "light"}
                >
                 {badge}
               </Badge>
