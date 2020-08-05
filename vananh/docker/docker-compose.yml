@@ -1,0 +1,75 @@
+version: '3.8'
+
+services:
+  https-portal:
+    container_name: https-portal
+    image: steveltn/https-portal:1.12.0
+    ports:
+      - '80:80'
+      - '443:443'
+    networks:
+      - vananh-client
+    environment:
+      DOMAINS: >
+        dulichvananh.vn -> http://vananh-client:3000,
+      CLIENT_MAX_BODY_SIZE: 0
+      WEBSOCKET: 'true'
+      STAGE: 'production'
+    volumes:
+      - https-portal:/var/lib/https-portal
+    restart: always
+
+
+  vananh-client:
+    container_name: vananh-client
+    build:
+      context: ./vananh-client/
+      dockerfile: Dockerfile
+      args:
+        buildno: 1
+    image: vananh/client:12.18.3-buster-slim
+    volumes:
+      - /home/name/vananh-client:/usr/src/app
+    restart: always
+
+
+  vananh-server:
+    container_name: vananh-server
+    ports:
+      - '5000:5000'
+    build:
+      context: ./vananh-server/
+      dockerfile: Dockerfile
+      args:
+        buildno: 1
+    image: vananh/server:12.18.3-buster-slim
+    networks:
+      - mongodb
+    volumes:
+      - /home/name/vananh-server:/usr/src/app
+    restart: always
+
+
+  mongodb:
+    container_name: mongodb
+    ports:
+      - '27017:27017'
+    image: mongodb:4.4.0-bionic
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+    volumes:
+      - mongodb-data:/data/db
+    restart: always
+
+
+networks:
+  vananh-client:
+    driver: bridge
+  vananh-server:
+    driver: bridge
+  mongodb:
+    driver: bridge
+
+volumes:
+  mongodb-data:
