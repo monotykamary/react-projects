@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import "../App.css";
 import {NavItem} from 'reactstrap'
-import imgCard1 from "../img/bali-1.jpg";
-import imgCard2 from "../img/bali-2.jpg";
-import imgCard3 from "../img/brunei-1.jpg";
-import imgCard4 from "../img/brunei-2.jpg";
 import { useSelector, useDispatch } from "react-redux";
 import { detailsTours } from "../actions/tourActions";
 
@@ -49,17 +45,17 @@ const Tour = (props) => {
               </Col>
               <Col sm="4">
                 <div className="tour-gallery">
-                  <a href={imgCard1}>
-                    <img src={imgCard1} alt="" />
+                  <a href={tour.image}>
+                    <img src={tour.image2} alt="" />
                   </a>
-                  <a href={imgCard2}>
-                    <img src={imgCard2} alt="" />
+                  <a href={tour.image2}>
+                    <img src={tour.image2} alt="" />
                   </a>
-                  <a href={imgCard3}>
-                    <img src={imgCard3} alt="" />
+                  <a href={tour.image3}>
+                    <img src={tour.image2} alt="" />
                   </a>
-                  <a href={imgCard4}>
-                    <img src={imgCard4} alt="" />
+                  <a href={tour.image4}>
+                    <img src={tour.image2} alt="" />
                   </a>
                 </div>
               </Col>

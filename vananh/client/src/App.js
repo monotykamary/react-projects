@@ -11,6 +11,8 @@ import Package from "./components/Package";
 import Contact2 from "./components/Contact2";
 import Services2 from "./components/Services2";
 import Order from "./components/Order";
+import Admin from "./components/Admin";
+import Edit from "./components/Edit";
 
 function App () {
     return (
@@ -27,7 +29,9 @@ function App () {
             <Route path = "/package" exact component={Package}/>
             <Route path = "/contact" exact component={Contact2}/>
             <Route path = "/tours/:id" exact component={Tour}/>
+            <Route path = "/tours/:id/edit" exact component={Edit}/>
             <Route path = "/services" exact component={Services2}/>
+            <Route path = "/admin" exact component={Admin}/>
           </Switch>
         </Router>
       </div>
