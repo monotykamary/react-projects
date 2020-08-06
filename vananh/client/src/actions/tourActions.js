@@ -27,4 +27,17 @@ const detailsTours = (tourId) => async (dispatch) =>{
     }
 }
 
-export {listTours, detailsTours}
+const saveTours = (tourId) => async (dispatch) =>{
+    try{
+        const {data} =await api.get(`api/tours/` +tourId +'/edit')
+        
+        dispatch({type: types.GET_TOURS_SAVE, payload: data})
+        return {status: true,data: data}
+    }
+    catch(error){
+        return {status: false,message: error}
+        
+    }
+}
+
+export {listTours, detailsTours, saveTours}

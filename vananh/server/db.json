@@ -1,0 +1,150 @@
+{
+  "tours": [
+    {
+      "_id": "1",
+      "category": [
+        "resort",
+        "trăng mật",
+        "thành phố",
+        "ngoài nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-2.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/brunei-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/brunei-2.jpg",
+      "alt": "img",
+      "title": "Bali - Brunei",
+      "subtitle": " 6 ngày, 5 đêm",
+      "context": "Trong số hàng nghìn đảo lớn nhỏ của đất nước Indonesia, Bali nổi lên như một viên kim cương rực rỡ. Nơi đây được du khách ưu ái đặt tên là thiên đường nhiệt đới.Bali, hòn đảo nhiệt đới xinh đẹp của Indonesia trở thành một trong những điểm du lịch nổi tiếng nhất châu Á. Trong năm 2012 đảo đã đón 2,8 triệu lượt khách du lịch, chủ yếu đến từ các nước châu Âu. Bali thu hút du khách bởi cảnh biển xinh đẹp, vùng đất giàu văn hóa với nhiều lễ hội và những ngôi đền đẹp nằm trên biển. Bay bằng Singapore Airlines, du khách sẽ quá cảnh tại sân bay Changi rồi nhanh chóng tới Bali, nơi chứa đựng vô vàn điều mới lạ. Trong các ấn phẩm hướng dẫn du lịch, yếu tố nghệ thuật luôn được nhấn mạnh khi giới thiệu về Bali. Hướng dẫn viên của Vietrantour sẽ đưa bạn tiếp cận tới thế giới của nghệ thuật dân gian Bali. Sáng tạo nghệ thuật là thuộc tính của hòn đảo xinh đẹp này. Nơi đây có hàng nghìn, hàng vạn ngôi đền. Tất cả đều có cổng mô phỏng theo hình tượng núi thần Meru tách làm đôi, mở ra bên trong một không gian thành kính.Trong đó, đền Tanah Lot nổi tiếng về sự linh thiêng và độc đáo. Tới đây, bạn sẽ được chiêm ngưỡng một ngôi đền bị thủy triều làm cách ly giữa làn nước vào buổi sáng. Hành trình sẽ tiếp nối với việc ghé thăm Royal Temple, ngôi đền cổ của vương triều Mengwi có kiến trúc hoàn hảo; khu lăng mộ Gunungkawi Kingstombs và đền suối nước Tirta Empul - nơi được tương truyền có dòng nước khiến con người trẻ mãi không già. Thật ra, trường sinh bất lão về mặt thể xác luôn là mộng tưởng xa vời, nhưng giữ nguyên sự trẻ trung về mặt tinh thần lại không quá khó. Du khách có thể nhận ra điều này trong hành trình khám phá Bali khi tới làng Văn hóa dân tộc Batubulan, một làng quê xinh xắn có vũ điệu Barong và Keris truyền thống. Ở đây, bạn sẽ đón nhận làn gió mát trên cao nguyên Kitamani cao 1.500m so với mực nước biển, ngắm nhìn toàn cảnh tráng lệ của ngọn núi lửa và lòng hồ Batur. Ngắm nhìn cảnh sắc, cảm nhận sự hòa quyện kỳ vĩ của trời và đất, nhiều người cảm nhận được điều tạo nên sức sáng tạo nghệ thuật của người Bali, nhất là tại các làng Mas và Ubud. Tại đây, nghệ nhân dân gian sử dụng vật liệu thép, thủy tinh, gỗ, đá, mây, tre… để tạo nên hàng nghìn chủng loại vật phẩm mang đậm dấu ấn bản địa rất được du khách ưa chuộng.Du khách phương Tây tới Bali rất thích lướt sóng, còn người Việt Nam thường dành thời gian cho thú mua sắm, tắm biển. Quanh đảo có hàng trăm bờ cát lớn nhỏ, nơi nào cũng phù hợp để thư giãn dưới ánh mặt trời ấm áp. Trên bờ là hàng trăm, hàng nghìn nhà hàng, quầy bar, nơi bạn tận hưởng đồ ăn Trung Hoa, Pháp, Italy, Ấn Độ… với nhiều hương vị đặc trưng. Là quốc gia Hồi giáo song Indonesia có nhịp sống khá tự do. Đảo Bali đón nhận đủ loại du khách nên sự pha trộn văn hóa càng đặc biệt, bởi vậy bất kỳ ai cũng sẽ tìm ra cho mình những điều hấp dẫn."
+    },
+    {
+      "_id": "2",
+      "category": [
+        "resort",
+        "biển",
+        "trong nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/condao-3.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/condao-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/condao-2.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/condao-4.jpg",
+      "alt": "img",
+      "title": "Côn Đảo",
+      "subtitle": " 3 ngày, 2 đêm",
+      "context": "Côn Đảo là một trong những hòn đảo xinh đẹp nhất Việt Nam, là điểm đến lý tưởng cho những ai muốn khám phá vẻ đẹp hoang sơ, tìm hiểu lịch sử và muốn trải nghiệm những khoảnh khắc khó quên cùng biển xanh cát trắng giữa ngàn khơi. Côn Đảo còn được biết đến qua những cái tên khác nhau như Côn Sơn, Côn Lôn hay Côn Nôn, cũng có tên khác theo cách gọi của người Khmer là Koh Tralach, là một quần đảo ngoài khơi thuộc tỉnh Bà Rịa-Vũng Tàu, cách sông Hậu 45 hải lý và cách TP. Vũng Tàu 97 hải lý. Trong quá khứ, Côn Đảo từng được biết đến là một địa ngục trần gian, nơi ghi dấu ấn lịch sử của một thời kỳ đấu tranh của dân tộc vừa hào hùng vừa bi thương còn in dấu trên vùng đất Côn Đảo.Côn Đảo ngày nay trở thành điểm du lịch lý tưởng cho những ai muốn kham phá vẻ đẹp hoang sơ và tìm hiểu lịch sử của đất nước Việt Nam. Nơi đây, bạn có thể lang thang để cảm nhận sâu sắc về quá khứ và khám phá thế giới đại dượng với dải san hô muôn màu cùng cánh rừng nguyên sinh với hệ động thực vật phòng phú và hơn hết là để thoát ly cuộc sống ồn ào của đô thị. Từ một “địa ngục trần gian”, Côn Đảo nhanh chóng chuyển mình thành một trong những hòn đảo quyến rũ nhất hành tinh, có thể làm lạc bước chân mỗi du khách khi đặt chân đến hòn đảo xinh đẹp này. Cùng với mỹ từ “top 10 hòn đảo quyến rũ nhất hành tinh” được bình chọn bởi tạp chí du lịch Lonely Planet, Côn Đảo cũng được nhắc đến là “một trong những hòn đảo bí ẩn nhất hành tinh” bởi tạp chí du lịch Travel and Leisure. Chính nhờ vẻ đẹp quyến rũ và sự bí ẩn vốn có, Côn Đảo đã thực trở thành một điểm đến đầy sức hút không chỉ với du khách trong nước mà còn đối với cả du khách quốc tế."
+    },
+    {
+      "_id": "3",
+      "category": [
+        "resort",
+        "thành phố",
+        "ngoài nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/singapore-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "alt": "img",
+      "title": "Malaysia - Singapore",
+      "subtitle": " 6 ngày, 5 đêm",
+      "context": "Malaysia là đất nước đa chủng tộc, đa tôn giáo. Đất nước du lịch Malaysia không chỉ mê hoặc du khách từ phong tục tập quán, kiến trúc, đến văn hóa nghệ thuật đa dạng mà còn hấp dẫn bởi những thắng cảnh tuyệt đẹp, thủ đô hiện đại Kuala Lumpur nơi có tháp đôi Petronas cao nhất thế giới, kiến trúc độc đáo của thánh đường Hồi giáo, khu giải trí Theme Park, nhiều trung tâm mua sắm cao cấp cùng với những mùa lễ hội mua sắm rất hoành tráng..."
+    },
+    {
+      "_id": "4",
+      "category": [
+        "resort",
+        "biển",
+        "núi",
+        "trăng mật",
+        "trong nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/dltc-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "alt": "img",
+      "title": "Danh lam thắng cảnh miền Bắc",
+      "subtitle": " 7 ngày, 6 đêm",
+      "context": "Đây là một trong những thác nước lớn nhất Việt Nam và đông Nam Á, nơi đây phong cảnh núi non hùng vĩ kết hợp với những thửa ruộng bậc thang vàng óng đã tạo nên sức hút khó cưỡng đối với du khách. Bạn có dịp đến đây bạn sẽ thấy được nét đẹp hùng vĩ cùng phong cảnh yên bình sẽ tạo cho bạn có những giây phút trải nghiệm khó quên. Các địa điểm du lịch miền Bắc thu hút khách du lịch nhất hiện nay đầu tiên phải kể đến đảo Cô Tô thuộc tỉnh Quảng Ninh, mê hoặc mọi người bởi bờ cát trắng mịn, bãi biển hoang sơ cùng làn nước xanh mát. Đây là quần đảo có khoảng 50 hòn đảo nằm về phía Đông Quảng Ninh và rộng hơn 46 km 2. Hiện nay sinh sống trên huyện đảo có 1500 hộ dân cùng 6000 nhân khẩu, Cô Tô nhỏ và Cô Tô lớn có nhiều bãi biển đẹp tiềm năng lớn phát triển du lịch. Danh lam thắng cảnh miền Bắc tập trung nhiều ở hòn đảo Cô Tô như: bãi đá Cầu Mỵ, hải đăng Cô Tô, nhà thờ Cô Tô, bãi biển Hồng Vàn, bãi tắm Vàn Chảy hay đảo Thanh Lân. Bãi đá Cầu Mỵ là thiên đường tình yêu với hệ thống đá trầm tích hàng vạn năm bào mòn bởi nước biển. Hải đăng Cô Tô nằm trên đỉnh ngọn núi cao nhất đảo, đường lên khá quanh co với tán rừng rậm rạp, sỏi đá gập ghềnh, sim tím mọc đầy khắp chốn. Nhà thờ Cô Tô xây dựng đem đến cho giáo dân trên đảo có nơi để cầu nguyện và thực hiện tín ngưỡng, nằm ngay dưới chân đồi nên nhà thờ khá nhỏ và trở thành điểm tham quan yêu thích của du khách. Bãi biển Hồng Vàn lặng sóng, bãi cát trải dài, trên bãi cát là căn nhà gỗ gần gũi với thiên nhiên, nơi bạn nghỉ dưỡng thoải mái và chỉ cần mở cửa phòng sẽ đặt chân xuống nước biển mát lạnh."
+    },
+    {
+      "_id": "5",
+      "category": [
+        "thành phố",
+        "trăng mật",
+        "ngoài nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/hongkong-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "alt": "img",
+      "title": "Hồng Kông - Thâm Quyến - Quảng Châu",
+      "subtitle": " 5 ngày, 4 đêm",
+      "context": "Hồng Kông thường được mô tả là nơi phương Đông gặp phương Tây, điều này được phản ánh trong hạ tầng kinh tế, giáo dục và văn hóa đường phố. Trên một góc phố nào đó, có thể có các tiệm truyền thống Trung Hoa bán thảo dược Trung Hoa, các đồ dùng linh tinh có liên quan đến Phật giáo hoặc bát súp vi cá mập bằng chất dẻo. Nhưng tại góc phố tiếp theo, người ta có thể tìm thấy các rạp hát đang chiếu các bộ phim ăn khách của Hollywood, một quán rượu theo phong cách Anh, một nhà thờ Công giáo hoặc một quán thức ăn nhanh McDonald's. Ngôn ngữ chính thức của lãnh thổ này là tiếng Hoa và tiếng Anh; các biển hiệu bằng hai thứ tiếng này hiện diện khắp nơi ở Hồng Kông. Chính quyền, cảnh sát và phần lớn các nơi làm việc đều sử dụng cả hai thứ tiếng. Sự cai trị của người Anh đã kết thúc một thập kỉ trước nhưng văn hóa phương Tây vẫn thấm sâu vào Hồng Kông và cùng tồn tại liền một mạch với triết lý và phong tục truyền thống phương Đông. Hồng Kông có một cuộc sống về đêm náo nhiệt ở các quận giải trí — Lan Kwai Fong (Lan Quế Phờng), Tsim Sha Tsui (Chiếm Sá Chủi), Wan Chai... Những nơi này thường được người địa phương, du khách nước ngoài viếng thăm. Vào một ngày trời quang, Đỉnh Victoria cho khách tham quan một tầm nhìn ngoạn mục về thành phố này. Thành phố này có một khu đi dạo dọc theo bến nước Tsim Sha Tsui, nơi các đôi uyên ương ưa thích. Các hoạt động mua sắm thường diễn ra về đêm với ví dụ cụ thể là ở Chợ đêm phố Temple nơi người ta cũng có thể xem Kinh kịch miễn phí."
+    },
+    {
+      "_id": "6",
+      "category": [
+        "trăng mật",
+        "ngoài nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/thailan-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "alt": "img",
+      "title": "Thái Lan",
+      "subtitle": " 4 ngày, 3 đêm",
+      "context": "Du lịch Thái Lan – Xứ sở nụ cười Thái Lan được biết đến là thiên đường du lịch hàng đầu Châu Á. Xứ chùa vàng không chỉ nổi tiếng những công trình kiến trúc độc đáo, những điểm nghỉ dưỡng tuyệt vời mà tour du lịch Thái Lan còn hấp dẫn du khách với những show trình diễn mang đậm dấu ấn lịch sử, văn hóa như show Muay Thái, show múa bóng, hài kịch đầu bếp … Những chợ ẩm thực đường phố trongTour Thái Lan cùng những khu mua sắm từ bình dân đến cao cấp cũng là điểm dừng chân lý tưởng cho các tín đồ mua sắm. Qua tour du lịch Thái Lan tại Du Lịch Việt du khách còn được tham quan, du lịch tại những địa điểm nổi tiếng như: Bangkok, Pattaya, Phuket, Phi Phi, Phang Nga, Udon Thani, Thái Lan, Krabi, Koh Samui, Chiang Mai, Chiang Rai, Ayutthaya, Khon Kaen, Mukdahan, Buriram,Patong,Ko Tao, Hua Hin,Ko Kut.."
+    },
+    {
+      "_id": "7",
+      "category": [
+        "resort",
+        "biển",
+        "ngoài nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/brunei-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "alt": "img",
+      "title": "Brunei - Kota Kinabalu",
+      "subtitle": " 4 ngày, 3 đêm",
+      "context": "Du lịch Brunei đất nước được mệnh danh là một “thiên đường du lịch” đầy sức hút bởi sự giàu có của đất nước dầu mỏ nổi tiếng thế giới. Vương quốc Brunei nằm ở Đông Nam Á, dọc theo bờ biển phía bắc của đảo Borneo. Brunei có những nét đặc sắc riêng, hấp dẫn du khách bởi sự yên tĩnh và không gian riêng tư với tiện nghi cực kỳ sang trọng; là quốc gia của các cung điện xa hoa tráng lệ, những thánh đường lộng lẫy và các lễ hội của người Hồi giáo Khám phá đất nước của những thánh đường sang trọng bậc nhất thế giới. Nằm trên đảo Borneo, Kota Kinabalu – thủ phủ của bang Sabah, Malaysia – ngày nay là một trong những điểm đến nổi tiếng nhất với nhiều thắng cảnh tự nhiên. Nhờ có nhiều bãi biển nên du khách có thể tham gia các hoạt động dưới nước như lặn biển với ống thở và bình dưỡng khí, hoặc với những ai thích câu cá thì Kota Kinabalu cũng là một trong những nơi tuyệt vời nhất để câu cá ngoài khơi với giá cả phải chăng. Không chỉ vậy, cũng như các vùng khác ở Malaysia, Kota Kinabalu còn có nhiều điểm tham quan thú vị nằm trong trung tâm thành phố đáng để bạn ghé thăm, như bảo tàng Sabah, thủy cung Green Connection Aquarium và phòng triển lãm nghệ thuật Sabah. Ngoài ra, dù có tốc độ phát triển thần tốc, nhưng du khách vẫn có thể chiêm ngưỡng các công trình lịch sử nguy nga ở khắp thành phố, đặc biệt là các địa danh tôn giáo thiêng liêng."
+    },
+    {
+      "_id": "8",
+      "category": [
+        "resort",
+        "biển",
+        "ngoài nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/brunei-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "alt": "img",
+      "title": "Thái Lan - Phuket",
+      "subtitle": " 4 ngày, 3 đêm",
+      "context": "Nơi nào ở Thái Lan in vào tâm trí của du khách khi được trò chuyện về biển, về ánh nắng mặt trời vàng rực rỡ và về những bãi cát trắng trải dài tinh khiết? Phuket chắc chắn phải là một trong những câu trả lời của điều đó. Phuket nổi tiếng với những bãi biển tuyệt đẹp cùng với một số hoạt động thú vị như lặn biển sâu, ăn uống trong những nhà hàng hạng sang, khu mua sắm hiện đại và những bãi tắm tuyệt vời.Phuket từ lâu đã trở thành một “thủ đô” giàu có về nghệ thuật, văn hóa. Là một trong những điểm đến du lịch hàng đầu tại Thái Lan, Phuket có vô số các điểm tham quan, đảm bảo du khách sẽ không quên được một kì nghỉ thật tuyệt vời trên hòn đảo xinh đẹp này"
+    },
+    {
+      "_id": "9",
+      "category": [
+        "resort",
+        "thành phố",
+        "ngoài nước"
+      ],
+      "image": "https://namtrhg.github.io/testing/images/phuket-1.jpg",
+      "image2": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image3": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "image4": "https://namtrhg.github.io/testing/images/bali-1.jpg",
+      "alt": "img",
+      "title": "Đài Loan (Cao Hùng - Đài Trung - Nam Đầu - Đài Bắc)",
+      "subtitle": " Liên hệ",
+      "context": "Đài Loan có diện tích khoảng 36.000 km2, nằm ở phía Đông Nam Trung Quốc, phía Bắc là Nhật Bản, phía Nam là Philippine, phía Đông giáp Thái Bình Dương. Ngoài đảo chính, Đài Loan còn có các đảo và quần đảo khác như: Lan Tư, Lục Đại, Bành Hổ, Kim Môn, Mã Tổ…Tuy là hải đảo, nhưng 2/3 diện tích Đài Loan lại là đồi núi cao và rừng cây rậm rạp, và có lẽ cũng chính điều này đã tạo nên khung cảnh thiên nhiên đặc sắc, tươi xanh cho vùng đất nơi đây. Không chỉ được biết đến bởi vẻ đẹp thiên nhiên, Đài Loan còn được mệnh danh là “con rồng châu Á” với nền kinh tế phát triển vào hàng bậc nhất ở khu vực châu Á. Ngoài sự phát triển mạnh mẽ của các ngành nghề nông-lâm-ngư nghiệp chủ yếu dựa vào tài nguyên thiên nhiên phong phú, Đài Loan còn phát triển nhanh chóng về cả các ngành thương mại, kỹ thuật, điện tử hiện đại. Về ngôn ngữ, ngoài tiếng Trung Quốc phổ thông được sử dụng rộng rãi và được xem là quốc ngữ, vài bộ phận nhỏ người Đài Loan còn sử dụng tiếng Mẫn Nam (tiếng Phúc Kiến), tiếng Cao Sơn hay thổ ngữ Hakka. Du khách đến Đài Loan nhất định sẽ cảm thấy thích thú với không gian xanh tươi đẹp sánh vai bên những tòa nhà chọc trời, khu công nghiệp hiện đại, và đặc biệt là thái độ thân thiện, hiếu khách của người dân bản địa."
+    }
+  ]
+}

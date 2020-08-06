@@ -18,19 +18,19 @@ class Contact extends Component {
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <Phone width="50" height="55" strokeWidth="1" />
-                  <p>xxxxxxxxxxxx</p>
+                  <p>(+84) 982371998</p>
                 </div>
               </Col>
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <MapPin width="55" height="55" strokeWidth="1" />
-                  <p>Ho Chi Minh City, Viet Nam</p>
+                  <p>Đường Lê Trọng Tấn, Phường Khương Mai, quận Thanh Xuân , Hà Nội, Viêt Nam</p>
                 </div>
               </Col>
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <Mail width="55" height="55" strokeWidth="1" />
-                  <p>namtrhg@gmail.com</p>
+                  <p>vananh03021998hn@gmail.com</p>
                 </div>
               </Col>
             </Row>

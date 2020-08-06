@@ -46,16 +46,16 @@ const Tour = (props) => {
               <Col sm="4">
                 <div className="tour-gallery">
                   <a href={tour.image}>
-                    <img src={tour.image2} alt="" />
+                    <img src={tour.image} alt="" />
                   </a>
                   <a href={tour.image2}>
                     <img src={tour.image2} alt="" />
                   </a>
                   <a href={tour.image3}>
-                    <img src={tour.image2} alt="" />
+                    <img src={tour.image3} alt="" />
                   </a>
                   <a href={tour.image4}>
-                    <img src={tour.image2} alt="" />
+                    <img src={tour.image4} alt="" />
                   </a>
                 </div>
               </Col>
