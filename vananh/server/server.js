@@ -15,8 +15,10 @@ app.use(function(req, res, next) {
 });
 
 const tourRoute = require('./routes/tourRouter')
-
+const userRoute = require('./routes/userRouter')
+app.use('/users', userRoute)
 app.use('/tours', tourRoute)
+
 
 mongoose.connect(process.env.DB_CONNECTION, 
 {

@@ -31,12 +31,6 @@ function Login() {
               </Button>
               <label><input type="checkbox" checked="checked" name="remember"/> Remember me</label>  
             </li>
-            <li>
-                    New to us?
-                </li>
-                <li>
-                    <Link to= "/register" className="button secondary full-width">Create your account</Link>
-                </li>  
           </ul>
     </div>
   );
