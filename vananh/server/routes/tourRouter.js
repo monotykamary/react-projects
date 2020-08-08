@@ -1,13 +1,15 @@
 const express = require ('express')
+const {authenticate,authorize}=require('./../middleware/auth')
 const router = express.Router()
 const {Tour} = require('../models/tourModel')
-
+require('dotenv/config')
+const key=process.env.JWT_SECRET
 router.get('/', async (req, res)=>{
     const tours = await Tour.find();
     return res.status(200).json(tours)
 })
 
-router.post('/', (req, res)=>{
+router.post('/',authenticate(key),authorize(), (req, res)=>{
     console.log('im here')
     const tour = new Tour({
         title: req.body.title,
