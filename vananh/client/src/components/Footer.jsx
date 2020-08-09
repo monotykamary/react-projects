@@ -24,7 +24,7 @@ class Footer extends Component {
             <Row>
               <Col md="3" xs="6">
                 <div className="svg-card-3">
-                  <a href="#">
+                  <a href="https://www.facebook.com/tran.vananh.5095">
                     <Facebook color="#3B5998" width="50" height="55" strokeWidth="1" />
                   </a>
                 </div>
@@ -53,7 +53,7 @@ class Footer extends Component {
             </Row>
             <hr />
             <br />
-            <p>Created by <a href="https://www.facebook.com/nam.tranhoang.94651">Nam Tran</a></p>
+            <p>Created by Nam Tran</p>
             <p>Copyright Reserved | Vân Anh Tourism</p>
           </footer>
         </Container>

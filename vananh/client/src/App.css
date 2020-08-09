@@ -25,7 +25,7 @@
 }
 
 #hero {
-  background: url("./img/pq.jpg") center center;
+  background: url("./img/condao-3.jpg") center center;
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -195,7 +195,7 @@
 }
 
 .wrapped-services {
-  background: url("./img/bg2.jpg") center center;
+  background: url("./img/pq.jpg") center center;
   background-size: cover;
   background-attachment: fixed;
 }

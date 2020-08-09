@@ -1,7 +1,8 @@
 import {combineReducers} from "redux"
-import { tourListReducer, tourDetailsReducer } from "./tourReducer"
+import { tourListReducer, tourDetailsReducer, tourSavesReducer } from "./tourReducer"
 
 const rootReducer=combineReducers({
+    tourSave: tourSavesReducer,
     tourList: tourListReducer,
     tourDetails: tourDetailsReducer,
 })

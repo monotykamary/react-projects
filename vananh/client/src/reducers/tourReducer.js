@@ -21,4 +21,14 @@ function tourDetailsReducer(state =  {tours: {}}, action){
     }
 }
 
-export {tourDetailsReducer, tourListReducer}
+function tourSavesReducer(state =  {tours: {}}, action){
+    switch (action.type){
+        case types.GET_TOURS_SAVE:
+            return action.payload;
+        default:
+            return state;
+
+    }
+}
+
+export {tourDetailsReducer, tourListReducer, tourSavesReducer}

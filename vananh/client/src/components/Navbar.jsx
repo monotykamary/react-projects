@@ -55,9 +55,6 @@ class NavbarMain extends React.Component {
                   <NavLink href="/package">Gói du lịch</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/services">Dịch vụ</NavLink>
-                </NavItem>
-                <NavItem>
                   <NavLink href="/contact">Liên hệ</NavLink>
                 </NavItem>
                 <NavItem>

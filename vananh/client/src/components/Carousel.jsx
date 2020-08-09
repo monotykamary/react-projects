@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import beach from "../img/bai-bien-nuoc-anh.jpg";
 import resort from "../img/resort.jpg";
-import camp from "../img/camp.jpg";
+import camp from "../img/camping-1.jpg";
 import mountain from "../img/spa.jpg";
-import gulp from "../img/gulp.jpg";
+import gulp from "../img/rock-climbing.jpg";
 import {
   Carousel,
   CarouselItem,
@@ -16,7 +16,7 @@ const items = [
   {
     src: resort,
     //altText: "Slide 1",
-    caption: "Resorts"
+    caption: "Resorts cao cấp"
   },
   {
     src: gulp,

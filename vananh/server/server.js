@@ -1,28 +1,32 @@
-const express= require("express")
-const data= require("./data")
-
+const express = require('express')
 const app = express();
+const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
+
+require('dotenv/config')
+
+app.use(bodyParser.json())
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, token");
     res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
     next();
-  });
+});
 
-app.get("/api/tours", (req, res) =>{
-    //console.log(data);
-    
-    return res.status(200).json(data.tours)
+const tourRoute = require('./routes/tourRouter')
+const userRoute = require('./routes/userRouter')
+app.use('/users', userRoute)
+app.use('/tours', tourRoute)
+
+
+mongoose.connect(process.env.DB_CONNECTION, 
+{
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
 })
+    .then(()=>console.log("Connected to mongoDB"))
+    .catch((err)=>console.log(err))
 
-app.get("/api/tours/:id", (req, res) =>{
-  const tourId = req.params.id;
-  const tour = data.tours.find(x=>x._id === tourId);
-  if(tour)
-      res.send(tour)
-  else
-      res.status(404).send({msg:"Tour not found"})
-})
 
-app.listen(5000, ()=>{console.log("Server started at http://localhost:5000")})
+app.listen(4000);

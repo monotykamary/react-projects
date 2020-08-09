@@ -9,7 +9,7 @@ function Order () {
         <div>
             <Carousel/>
             <head>
-                <title>Đặt vé tàu cao tốc Phú quốc Express iFrame message passing test</title>
+                <title>Đặt vé tàu cao tốc Phú quốc Express</title>
             </head>
             
             <body>

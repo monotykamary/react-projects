@@ -79,7 +79,7 @@ function Package () {
                     Read more
                   </Button>
                 </Link>
-                <Link to={{pathname: `/tours/${tour._id}/edit`,}} style={{ textDecoration: 'none' }}>
+                <Link to={{pathname: `/admin/edit/tours/${tour._id}`,}} style={{ textDecoration: 'none' }}>
                   <Button outline color="secondary" className="float-right" href="tour">
                     Edit
                   </Button>
