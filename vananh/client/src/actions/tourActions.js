@@ -3,7 +3,7 @@ import * as types from "../constants/actionTypes"
 
 const listTours = () => async (dispatch) =>{
     try{
-        const {data} =await api.get(`api/tours/`)
+        const {data} =await api.get(`tours/`)
         
         dispatch({type: types.GET_TOURS_LIST, payload: data})
         return {status: true,data: data}
@@ -16,7 +16,7 @@ const listTours = () => async (dispatch) =>{
 
 const detailsTours = (tourId) => async (dispatch) =>{
     try{
-        const {data} =await api.get(`api/tours/` +tourId)
+        const {data} =await api.get(`tours/` +tourId)
         
         dispatch({type: types.GET_TOURS_DETAILS, payload: data})
         return {status: true,data: data}
@@ -29,7 +29,7 @@ const detailsTours = (tourId) => async (dispatch) =>{
 
 const saveTours = (tourId) => async (dispatch) =>{
     try{
-        const {data} =await api.get(`api/tours/` +tourId +'/edit')
+        const {data} =await api.get(`tours/` +tourId)
         
         dispatch({type: types.GET_TOURS_SAVE, payload: data})
         return {status: true,data: data}

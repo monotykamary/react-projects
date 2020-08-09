@@ -3,3 +3,6 @@ export const GET_TOURS_DETAILS='GET_TOURS_DETAILS';
 export const GET_TOURS_SAVE='GET_TOURS_SAVE';
 
 
+export const USER_LOGIN = 'USER_LOGIN'
+
+
