@@ -16,8 +16,7 @@ function Package () {
     const ret= await dispatch(listTours());
       if(ret){
           setTourList(ret.data)
-          console.log(ret)
-          //console.log(ret)
+          console.log(TourList)
       }
   }
   const [category, setCategory] = useState([]);

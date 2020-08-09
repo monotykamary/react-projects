@@ -23,18 +23,18 @@ const getToken =async (user)=>{
     )
     return token
 }
-router.post('/signin', async (req, res)=>{
-    const signinUser = await User.findOne({
+router.post('/login', async (req, res)=>{
+    const loginUser = await User.findOne({
         email: req.body.email
     })
-    if(signinUser){
+    if(loginUser){
 
-        const isMatch = await comparePassword(req.body.password,signinUser.password)
+        const isMatch = await comparePassword(req.body.password,loginUser.password)
         if(!isMatch) return res.status(401).send({msg:"Invailid email or password"})
-        const token=await getToken(signinUser)
+        const token=await getToken(loginUser)
         res.send({
-            email: signinUser.email,
-            isAdmin: signinUser.isAdmin,
+            email: loginUser.email,
+            isAdmin: loginUser.isAdmin,
             token: token
         })
     }else res.status(401).send({msg:"Invaild email or password"})
@@ -109,7 +109,7 @@ router.delete("/:id", async (req, res) => {
         }
     } catch (error) {
         return res.status(500).json({ message: error });
-    } 
+    }
 });
 
 

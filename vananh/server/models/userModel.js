@@ -25,7 +25,7 @@ UserSchema.pre("save",function(next){
 })
 
 
-const User=mongoose.model("User",UserSchema,"User");
+const User=mongoose.model("users",UserSchema,"users");
 
 module.exports={
     User,UserSchema
