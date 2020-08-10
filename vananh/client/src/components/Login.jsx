@@ -1,17 +1,38 @@
-import React from 'react';
+import React, { Component, useState, useEffect } from "react";
+import { useSelector, useDispatch } from 'react-redux';
 import {Link} from "react-router-dom"
 import "../App.css";
-import { Button, Form, Grid, Header, Image, Message, Segment } from 'semantic-ui-react'
+import Carousel2 from '../components/Carousel2'
+import { login } from "../actions/userActions";
 
-function Login() {
+function Login(props) {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const userLogin = useSelector(state => state.userLogin);
+  const {userInfo, error} = userLogin; 
 
-  const onclickHandler=()=>{
-      
+  const dispatch = useDispatch();
+  useEffect(() => {
+      if(userInfo){
+          props.history.push("/");
+      }
+      return () => {
+        //
+      };
+  }, [userInfo]);
+
+  const submitHandler =(e)=>{
+      e.preventDefault();
+      dispatch(login(email, password));
   }
 
   return (
-    <div className="form">
+  <div>
+      <Carousel2></Carousel2>
+      <div className="form">
+      <form onSubmit={submitHandler}>
           <ul className="form-container">
+<<<<<<< HEAD
             <li>
             <Header as='h2' color='teal' textAlign='center'>
               <Image src='/logo.png' /> Log-in 
@@ -31,9 +52,29 @@ function Login() {
               </Button>
               <label><input type="checkbox" checked="checked" name="remember"/> Remember me</label>  
             </li>
+=======
+              <li>
+                  <li>
+                      <h2>Login</h2>
+                  </li>
+                  <label htmlFor="email">Email</label>
+                  <input type="email" name="email" id="email" onChange={(e)=> setEmail(e.target.value)}>
+                  </input>
+              </li>
+              <li>
+                  <label htmlFor="password">Password</label>
+                  <input type="password" name="password" id="password" onChange={(e)=> setPassword(e.target.value)}>
+                  </input>
+              </li>
+              <li>
+                  <button type="submit" className ="button primary">Login</button>
+              </li>
+>>>>>>> origin/testing3
           </ul>
-    </div>
-  );
+      </form>
+  </div>
+  </div>
+  )
 }
 
 export default Login;

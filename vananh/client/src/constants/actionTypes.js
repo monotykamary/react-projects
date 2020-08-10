@@ -10,3 +10,6 @@ export const USER_REGISTER_REQUEST = 'USER_REGISTER_REQUEST';
 
 export const USER_LOGOUT = 'USER_LOGOUT';
 
+export const USER_LOGIN = 'USER_LOGIN'
+
+
