@@ -7,6 +7,7 @@ import thunk from "redux-thunk"
 import App from './App';
 import rootReducer from "./reducers/index"
 import * as serviceWorker from './serviceWorker';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import 'semantic-ui-css/semantic.min.css'
 import "bootstrap/dist/css/bootstrap.css";
 // Add custom css import below this line
@@ -38,10 +39,7 @@ const persistedState=loadFromLocalStorage()
 const store = createStore(
   rootReducer,
   persistedState,
-  compose(
-    applyMiddleware(...middlewares),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
+  composeWithDevTools(applyMiddleware(...middlewares))
 );
 
 store.subscribe(()=>saveToLocalStorage(store.getState()))
