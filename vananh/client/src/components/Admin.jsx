@@ -55,6 +55,11 @@ function Package () {
       <Container>
         <header className="headerTitle text-center">
           <h1>Gói Du Lịch</h1>
+          <Link to={{pathname: `/tours`}} style={{ textDecoration: 'none' }}>
+                  <Button outline color="secondary" className="float-right" href="tour">
+                    Create new Tour
+                  </Button>
+                </Link>
           <p>Tổng hợp các gói du lịch của chúng tôi</p>
         </header>
         <section className="packageBody text-center">
@@ -79,9 +84,14 @@ function Package () {
                     Read more
                   </Button>
                 </Link>
-                <Link to={{pathname: `/admin/edit/tours/${tour._id}`,}} style={{ textDecoration: 'none' }}>
+                <Link to={{pathname: `/manage/edit/tours/${tour._id}`,}} style={{ textDecoration: 'none' }}>
                   <Button outline color="secondary" className="float-right" href="tour">
                     Edit
+                  </Button>
+                </Link>
+                <Link to={{pathname: `/manage/delete/tours/${tour._id}`,}} style={{ textDecoration: 'none' }}>
+                  <Button outline color="secondary" className="float-right" href="tour">
+                    Delete
                   </Button>
                 </Link>
                   <CardTitle>{tour.title}</CardTitle>

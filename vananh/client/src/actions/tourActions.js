@@ -29,7 +29,7 @@ const detailsTours = (tourId) => async (dispatch) =>{
 
 const saveTours = (tourId) => async (dispatch) =>{
     try{
-        const {data} =await api.get(`tours/` +tourId +'/edit')
+        const {data} =await api.get(`tours/` +tourId)
         
         dispatch({type: types.GET_TOURS_SAVE, payload: data})
         return {status: true,data: data}
