@@ -281,3 +281,8 @@ input{
   border: .1rem #c0c0c0 solid;
   border-radius: .5rem;
 }
+
+.order{
+  text-align: center;
+  padding-top: 20vh;
+}
