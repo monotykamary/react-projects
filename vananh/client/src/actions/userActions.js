@@ -11,6 +11,7 @@ const login = (email, password) => async (dispatch) =>{
     }
     catch(error){
         return {status: false,message: error}
+        console.log(error);
         
     }
 }

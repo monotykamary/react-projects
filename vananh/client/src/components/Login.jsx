@@ -14,7 +14,7 @@ function Login(props) {
   const dispatch = useDispatch();
   useEffect(() => {
       if(userInfo){
-          props.history.push("/");
+          props.history.push("/manage");
       }
       return () => {
         //
@@ -32,27 +32,6 @@ function Login(props) {
       <div className="form">
       <form onSubmit={submitHandler}>
           <ul className="form-container">
-<<<<<<< HEAD
-            <li>
-            <Header as='h2' color='teal' textAlign='center'>
-              <Image src='/logo.png' /> Log-in 
-           </Header>
-            </li>
-            <li>
-              <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required/>
-            </li>
-            <li>
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required/>
-            </li>
-            <li>
-              <Button type="submit" onClick={onclickHandler} color='teal' fluid size='large'>
-                Login
-              </Button>
-              <label><input type="checkbox" checked="checked" name="remember"/> Remember me</label>  
-            </li>
-=======
               <li>
                   <li>
                       <h2>Login</h2>
@@ -69,7 +48,6 @@ function Login(props) {
               <li>
                   <button type="submit" className ="button primary">Login</button>
               </li>
->>>>>>> origin/testing3
           </ul>
       </form>
   </div>

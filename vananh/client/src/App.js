@@ -14,6 +14,7 @@ import Admin from "./components/Admin";
 import Edit from "./components/Edit";
 import SigninScreen from "./components/Signin";
 import { useSelector } from 'react-redux';
+import Login from "./components/Signin";
 
 function App () {
     
@@ -25,6 +26,7 @@ function App () {
             <Route path = "/" exact component={Home}/>
             <Route path = "/home" exact component={Home}/>
             <Route path = "/about" exact component={About}/>
+            <Route path = "/login" exact component={Login}/>
             <Route path = "/signin" exact component={SigninScreen}/>
             <Route path = "/intro" exact component={Intro}/>
             <Route path = "/order" exact component={Order}/>
