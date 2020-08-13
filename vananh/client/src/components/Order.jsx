@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Carousel from './Carousel';
 import Iframe from 'react-iframe'
+import IframeResizer from 'iframe-resizer-react'
 import "../App.css";
 
 function Order () {
@@ -10,15 +11,11 @@ function Order () {
                 <h1>Đặt vé tàu cao tốc Phú quốc Express</h1>
             </div>
             <div>
-                <Iframe url="https://test.pqe.com.vn/home"
-                width="100%"
-                height="400px"
-                id="myId"
-                scrolling="no"
-                className="myClassname"
-                display="initial"
-                scrolling
-                position="relative"/>
+            <IframeResizer
+                log
+                src="https://www.pqe.com.vn?iframe=1"
+                style={{ width: '1px', minWidth: '100%'}}
+                />
             </div>     
         </div>
     );

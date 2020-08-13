@@ -1,7 +1,7 @@
 import React, { Component, useState, useEffect } from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import {Link} from "react-router-dom"
-import "../App.css";
+import "./index.css";
 import Carousel2 from '../components/Carousel2'
 import { login } from "../actions/userActions";
 

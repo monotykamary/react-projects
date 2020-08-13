@@ -12,9 +12,9 @@ import Services2 from "./components/Services2";
 import Order from "./components/Order";
 import Admin from "./components/Admin";
 import Edit from "./components/Edit";
-import SigninScreen from "./components/Signin";
+import LoginScreen from "./components/Login";
 import { useSelector } from 'react-redux';
-import Login from "./components/Signin";
+import Login from "./components/Login";
 
 function App () {
     
@@ -27,7 +27,7 @@ function App () {
             <Route path = "/home" exact component={Home}/>
             <Route path = "/about" exact component={About}/>
             <Route path = "/login" exact component={Login}/>
-            <Route path = "/signin" exact component={SigninScreen}/>
+            <Route path = "/Login" exact component={LoginScreen}/>
             <Route path = "/intro" exact component={Intro}/>
             <Route path = "/order" exact component={Order}/>
             <Route path = "/package" exact component={Package}/>
