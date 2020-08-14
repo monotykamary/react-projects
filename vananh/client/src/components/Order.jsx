@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react';
-import Carousel from './Carousel';
-import Iframe from 'react-iframe'
+import Carousel2 from './Carousel2'
 import IframeResizer from 'iframe-resizer-react'
 import "../App.css";
+import Footer from './Footer';
+import Contact from './Contact';
 
 function Order () {
     return (
         <div className="order">
             <div>
-                <h1>Đặt vé tàu cao tốc Phú quốc Express</h1>
+                <h1>Đặt vé Du Lịch Vân Anh</h1>
             </div>
             <div>
             <IframeResizer
@@ -16,7 +17,9 @@ function Order () {
                 src="https://www.pqe.com.vn?iframe=1"
                 style={{ width: '1px', minWidth: '100%'}}
                 />
-            </div>     
+            </div>
+            <Contact/>
+            <Footer/>    
         </div>
     );
 }

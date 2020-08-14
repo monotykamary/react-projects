@@ -8,6 +8,8 @@ import "../App.css";
 import { listTours } from "../actions/tourActions";
 import {Link} from "react-router-dom";
 import { intersection, isEmpty } from 'lodash';
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function Package () {
   const [TourList, setTourList] = useState([]);
@@ -49,6 +51,7 @@ function Package () {
 
 
   return (
+    <div>
     <div className="subComponent-lg" id="packageBody">
       <SecondCarousel/>
       <Container>
@@ -85,7 +88,8 @@ function Package () {
               </CardColumns>
             </Row>
           </section>
-          </Container>
+          </Container>   
+    </div>
     </div>
   );
 }

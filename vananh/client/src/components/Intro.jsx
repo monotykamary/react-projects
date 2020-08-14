@@ -1,6 +1,8 @@
 import React from "react";
 import Carousel from "./Carousel";
 import { Container } from "reactstrap";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default function Intro (){
     return(
@@ -14,6 +16,8 @@ export default function Intro (){
             </header>
             </Container>
             </div>
+            <Contact/>
+            <Footer/>    
         </div>
     )
 }
