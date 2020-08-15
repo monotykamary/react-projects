@@ -64,7 +64,7 @@ class Contact extends Component {
                     rows="4"
                     placeholder="Your Message"
                   />
-                  <Button outline color="light" className="float-left">
+                  <Button outline color="dark" className="float-left">
                     Gửi
                   </Button>
                 </Col>

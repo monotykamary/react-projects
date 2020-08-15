@@ -3,10 +3,11 @@ import Carousel from "./Carousel";
 import { Container } from "reactstrap";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import './index.css'
 
 export default function Intro (){
     return(
-        <div>
+        <div className="intro">
             <Carousel/>
             <div className="subComponent" id="aboutBody">
           <Container>
