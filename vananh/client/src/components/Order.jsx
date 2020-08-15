@@ -4,7 +4,6 @@ import IframeResizer from 'iframe-resizer-react'
 import "../App.css";
 import Footer from './Footer';
 import Contact from './Contact';
-import MessageData from './message-data'
 
 
 function Order () {
@@ -25,8 +24,8 @@ function Order () {
         heightCalculationMethod="lowestElement"
         inPageLinks
         log
-        checkOrigin="https://test.pqe.com.vn/home"
-        src="https://test.pqe.com.vn/home"
+        checkOrigin="https://test.pqe.com.vn?iframe=1"
+        src="https://test.pqe.com.vn?iframe=1"
         style={{ width: '1px', minWidth: '100%'}}
       />
     </>
